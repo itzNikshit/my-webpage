@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nikshit Monga</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- This line lets you add the favicon to the site -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@1,200&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <!--
+    favicons are the icons that appear just at the left side of a webpage and gives a nice look to it
+    favicon.cc is the site to get your own favicon quickly
+  -->
+  <body>
+    <!--
+      div is an html element that lets programmers divide the webpage in certain parts
+      and each part can be styled according to the needs.
+      div is content division element and separate each containers
+    -->
+    <!--
+      css display property -> block, inline, inline-block, none
+      a) block elements take whole width of screen like h1 or p or div or form or lists tags
+      b) span element is an inline display element that lets us style each piece of text differently in a text
+      c) span is useless without css
+      d) inline elements only take as much as needed like span, img, anchors
+      e) we can change display property of each tag according to our need with css
+      f) syntax:- display: inline;
+      g) inline block uses best of both
+      h) none removes the element completely
+      i) visibility can be used in order to make it invisible but still exists there
+    -->
+    <!--
+      now comes postioning in css
+      we can do postioning in css and we have these positions -> static, relative, absolute, fixed
+      a) all html elements are static by default means go along with the html rules and html code order
+      b) relative position is basically shifting the element relative to where it should have been in its natutral flow
+      c) relative-> left = make margin from left (means shift right), right = from right, and so on
+      d) absolute positions are basically it positions the element relative to its parent
+      e) absolute-> right = shifts to right literally and so on
+      f) relative and absolute are different as when we shifts right an element, the space it left is used by the other elements
+      g) but in case of relative, the position was not filled
+      h) fixed positioning is the type where we fix the element and even if we scroll on webpage, it sticks to the fixed position
+      i) fixed position is used in navbars as they are fixed even if scroll
+    -->
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Nikshit.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-pic" src="images/profile-pic.png" alt="nikshit-pic">
+        <h2>Hello.</h2>
+        <p class="intro">I'm Nikshit Monga, a student at JCBUST and a programmer by passion.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="coding" src="images/computer.png" alt="computer-img">
+          <h3>data structures & algorithms in CPP</h3>
+          <p>I have been coding in CPP for the past year and doing multiple dsa problems daily without fail.</p>
+        </div>
+        <div class="skill-row">
+          <img class="web-dev" src="images/coding.png" alt="coding-img">
+          <h3>web development using HTML, CSS, & jS</h3>
+          <p>Building this website while learning how to build websites using html, css and js.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you like to code and watch anime.</h3>
+        <p class="contact-message">Love watching animes and reading mangas and coding while listening to lofi music.</p>
+        <a class="btn" href="mailto:princelegend130@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/nikshit-monga-718834201/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/itzNikshit/">GitHub</a>
+      <a class="footer-link" href="https://leetcode.com/itz_nikshit/">Leetcode</a>
+      <p class="copyright">© NIKSHIT MONGA.</p>
+    </div>
+
+  </body>
+</html>
